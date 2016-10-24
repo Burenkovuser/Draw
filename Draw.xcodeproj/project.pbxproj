@@ -288,6 +288,7 @@
 				FB25D5591DBCD9DF000913EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

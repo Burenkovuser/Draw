@@ -29,6 +29,18 @@ class SmileView: UIView {
     }
     
     @IBInspectable var noseColor: UIColor = UIColor.redColor()
+    
+    @IBInspectable var happiness: CGFloat = 1 {
+        didSet {
+            if happiness < -1 {
+                happiness = -1
+            }
+            if happiness > 1 {
+                happiness = 1
+            }
+            setNeedsDisplay()
+        }
+    }
 
   
     override func drawRect(rect: CGRect) {
@@ -135,7 +147,7 @@ class SmileView: UIView {
         
         var controlPoint = mouthSymetricPoint
         
-        controlPoint.y = controlPoint.y + mouthWidth / 2
+        controlPoint.y = controlPoint.y + mouthWidth / 2 * happiness
         
         let path = UIBezierPath()
         
