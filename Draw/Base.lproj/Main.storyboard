@@ -29,12 +29,6 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="conturLineWigth">
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="smileBackgroundColor">
-                                        <color key="value" red="0.177671562209402" green="0.19400777297991323" blue="0.9769018292427063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="conoturLineColor">
-                                        <color key="value" red="1" green="0.03476845471" blue="0.1091971987" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
