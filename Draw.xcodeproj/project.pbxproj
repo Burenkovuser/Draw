@@ -12,6 +12,7 @@
 		FB25D5501DBCD9DF000913EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB25D54F1DBCD9DF000913EE /* Assets.xcassets */; };
 		FB25D5531DBCD9DF000913EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D5511DBCD9DF000913EE /* LaunchScreen.storyboard */; };
 		FB25D55B1DBCDBD4000913EE /* SmileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25D55A1DBCDBD4000913EE /* SmileView.swift */; };
+		FBCEFF941DBE5B6F00F7DB14 /* CreateimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEFF931DBE5B6F00F7DB14 /* CreateimageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FB25D5521DBCD9DF000913EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB25D5541DBCD9DF000913EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB25D55A1DBCDBD4000913EE /* SmileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileView.swift; sourceTree = "<group>"; };
+		FBCEFF931DBE5B6F00F7DB14 /* CreateimageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateimageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FB25D5481DBCD9DF000913EE /* AppDelegate.swift */,
 				FB25D54C1DBCD9DF000913EE /* Main.storyboard */,
+				FBCEFF931DBE5B6F00F7DB14 /* CreateimageViewController.swift */,
 				FB25D55A1DBCDBD4000913EE /* SmileView.swift */,
 				FB25D54F1DBCD9DF000913EE /* Assets.xcassets */,
 				FB25D5511DBCD9DF000913EE /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB25D5491DBCD9DF000913EE /* AppDelegate.swift in Sources */,
+				FBCEFF941DBE5B6F00F7DB14 /* CreateimageViewController.swift in Sources */,
 				FB25D55B1DBCDBD4000913EE /* SmileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

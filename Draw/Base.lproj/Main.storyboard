@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MDE-lF-8OB">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Draw" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,6 +41,7 @@
                             <constraint firstItem="X6u-v9-dl5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="El6-zm-O35"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="0yU-aX-HEX"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="smileView" destination="X6u-v9-dl5" id="WQE-jl-Pga"/>
@@ -48,7 +49,67 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="55"/>
+            <point key="canvasLocation" x="1096" y="55"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="rVO-2N-EMe">
+            <objects>
+                <viewController id="E7V-bg-czh" customClass="CreateimageViewController" customModule="Draw" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oI2-1V-kJa"/>
+                        <viewControllerLayoutGuide type="bottom" id="0GV-iF-X32"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hbU-LX-HWE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BTy-hR-ipU">
+                                <rect key="frame" x="40" y="197" width="240" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="dd0-uK-L6y"/>
+                                    <constraint firstAttribute="height" constant="174" id="pRC-ls-G2G"/>
+                                    <constraint firstAttribute="width" secondItem="BTy-hR-ipU" secondAttribute="height" multiplier="40:29" id="vdl-8J-e0Y"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="pRC-ls-G2G"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BTy-hR-ipU" firstAttribute="centerX" secondItem="hbU-LX-HWE" secondAttribute="centerX" id="eFL-Sr-4Jk"/>
+                            <constraint firstItem="BTy-hR-ipU" firstAttribute="centerY" secondItem="hbU-LX-HWE" secondAttribute="centerY" id="hdJ-cM-JN4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="2E7-Ix-IJd"/>
+                    <connections>
+                        <outlet property="imadeView" destination="BTy-hR-ipU" id="PSj-RS-JKU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAi-ak-QaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015" y="719"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="AfO-i2-YF8">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MDE-lF-8OB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="0Np-Wk-tBN">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="E7V-bg-czh" kind="relationship" relationship="viewControllers" id="EMU-9g-PPB"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="zxS-tD-zJI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyc-KY-Mry" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="619" y="55"/>
         </scene>
     </scenes>
 </document>
