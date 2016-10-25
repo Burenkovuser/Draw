@@ -52,6 +52,25 @@
             <point key="canvasLocation" x="1096" y="55"/>
         </scene>
         <!--Item-->
+        <scene sceneID="Wb9-jP-TW1">
+            <objects>
+                <viewController id="mUS-qL-aui" customClass="LoveViewController" customModule="Draw" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XSN-pX-3yb"/>
+                        <viewControllerLayoutGuide type="bottom" id="RS7-oe-qYU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b4a-5o-EuN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="fps-90-piL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k5d-4l-Nb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="556" y="789"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="rVO-2N-EMe">
             <objects>
                 <viewController id="E7V-bg-czh" customClass="CreateimageViewController" customModule="Draw" customModuleProvider="target" sceneMemberID="viewController">
@@ -103,6 +122,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="mUS-qL-aui" kind="relationship" relationship="viewControllers" id="oiv-sg-6TF"/>
                         <segue destination="E7V-bg-czh" kind="relationship" relationship="viewControllers" id="EMU-9g-PPB"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="zxS-tD-zJI"/>
                     </connections>

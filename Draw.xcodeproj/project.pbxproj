@@ -13,6 +13,7 @@
 		FB25D5531DBCD9DF000913EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D5511DBCD9DF000913EE /* LaunchScreen.storyboard */; };
 		FB25D55B1DBCDBD4000913EE /* SmileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25D55A1DBCDBD4000913EE /* SmileView.swift */; };
 		FBCEFF941DBE5B6F00F7DB14 /* CreateimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCEFF931DBE5B6F00F7DB14 /* CreateimageViewController.swift */; };
+		FBED8F9A1DBF6DFD00F696FD /* LoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED8F991DBF6DFD00F696FD /* LoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB25D5541DBCD9DF000913EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB25D55A1DBCDBD4000913EE /* SmileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileView.swift; sourceTree = "<group>"; };
 		FBCEFF931DBE5B6F00F7DB14 /* CreateimageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateimageViewController.swift; sourceTree = "<group>"; };
+		FBED8F991DBF6DFD00F696FD /* LoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				FB25D5481DBCD9DF000913EE /* AppDelegate.swift */,
 				FB25D54C1DBCD9DF000913EE /* Main.storyboard */,
+				FBED8F991DBF6DFD00F696FD /* LoveViewController.swift */,
 				FBCEFF931DBE5B6F00F7DB14 /* CreateimageViewController.swift */,
 				FB25D55A1DBCDBD4000913EE /* SmileView.swift */,
 				FB25D54F1DBCD9DF000913EE /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBED8F9A1DBF6DFD00F696FD /* LoveViewController.swift in Sources */,
 				FB25D5491DBCD9DF000913EE /* AppDelegate.swift in Sources */,
 				FBCEFF941DBE5B6F00F7DB14 /* CreateimageViewController.swift in Sources */,
 				FB25D55B1DBCDBD4000913EE /* SmileView.swift in Sources */,
